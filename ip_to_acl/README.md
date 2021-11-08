@@ -17,4 +17,13 @@ the json file containing the IP addresses _must_ follow the below format:
 }
 ```
 
-if its not obvious, both ipv4 and ipv6 are supported, as are cidr ranges. please submit PRs if willing to help improve upon my very beginner rust code.
+if its not obvious, both ipv4 and ipv6 are supported, as are cidr ranges. please submit PRs if willing to help improve upon my awfully beginner rust code.
+
+suggestions for improvements: 
+
+* retry upload on network error/failure
+* pushing entries to an already created ACL 
+* providing an ACL to use opposed to creating a new one
+* deleting or overwriting existing ACL
+* allowing the user to provide a name for the ACL to be created
+* moving away from in-line configuration vars to user-provided arguments
