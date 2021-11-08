@@ -1,0 +1,14 @@
+[package]
+name = "ip_to_acl"
+version = "0.1.0"
+authors = ["tlrmello <taylor@fastly.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_derive = "1.0.130"
+serde = { version = "1.0.130", features = ["derive"] }
+serde_json = "1.0.64"
+reqwest = { version = "0.11.6", features = ["blocking"] }
+ip_network = "0.4.0"
